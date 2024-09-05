@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    padding: 20px;
+    background-color: deepskyblue;
+}
+
+.counter {
+    margin-bottom: 10px;
+}
+
+.main-contain {
+    margin-bottom: 10px;
+}
+
+#increment {
+    margin-right: 5px;
+    padding: 2px;
+}
+
+#answer {
+    border: 2px solid white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#decrement {
+    margin-left: 5px;
+    padding: 2px;
+}
+
+#reset {
+    margin-bottom: 10px;
+    padding: 2px;
+}
