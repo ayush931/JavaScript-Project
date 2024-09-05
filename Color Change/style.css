@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#grey {
+    padding: 50px;
+    background-color: grey;
+    border: 2px solid black;
+}
+
+#red {
+    padding: 50px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+#blue {
+    padding: 50px;
+    background-color: blue;
+    border: 2px solid black;
+}
+
+#yellow {
+    padding: 50px;
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+.color-box {
+    display: flex;
+    gap: 2px;
+    padding: 20px;
+}
