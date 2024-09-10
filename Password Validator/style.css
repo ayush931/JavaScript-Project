@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    border: 2px solid;
+    padding: 20px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+}
+
+input {
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
